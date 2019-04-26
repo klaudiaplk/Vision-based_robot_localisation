@@ -16,9 +16,5 @@
         <remap from="camera_image"  to="$(arg cam_image_topic)" />
         <remap from="camera_info"   to="$(arg cam_info_topic)" />
     </node>
-<node pkg="alvar_tf" type="tf_broadcaster"
-          args="/ar_marker_11" name="ar_marker_11_tf_broadcaster" />
-    <node pkg="alvar_tf" type="tf_broadcaster"
-          args="/ar_marker_0" name="ar_marker_0_tf_broadcaster" />
 
 </launch>
